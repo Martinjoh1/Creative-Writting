@@ -56,6 +56,7 @@ def main():
 
     print(jack.num_legs)
     print(jack.fur)
+    print(jack.lovability)
     jack.run()
 
     kingkong = Animal("matted", 10, "black", 9, 2, 150*12, 50*2000, "King Kong")

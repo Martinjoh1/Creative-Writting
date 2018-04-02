@@ -88,6 +88,20 @@ class Point:
             self.turtle.write(text, True)
         self.turtle.hideturtle()
 
+    def connect_points(self,p):
+        '''
+        :param p:
+        :param q:
+        :return:
+        '''
+        self.turtle.pendown()
+        self.turtle.stamp()
+        self.turtle.color("blue")
+        #self.turtle.towards(p.x,p.y)
+        self.turtle.setposition(p.x,p.y)
+        self.turtle.pendown()
+        #self.turtle.forward(self)
+
 
 # end class
 
@@ -110,12 +124,14 @@ def main():
 
     p.draw_point()           # draw Point p as the default color of black
     q.draw_point(255, 0, 0)  # draw Point q as red (255, 0, 0)
+    q.connect_points(p)
 
     print("\nPlease enter x and y values. To end enter x = 0 and y = 0.")
     while q.x != 0 or q.y != 0:
         q.user_set()
         print("point = " + str(q))
         q.draw_point(random.randrange(256), random.randrange(256), random.randrange(256))
+
 
     wn.exitonclick()
 

@@ -72,6 +72,7 @@ def main():
     print(jessies_car.color)
     jessies_car.start()
     jessies_car.start()
+    print (jessies_car.model)
     jessies_car.forward(20)
 
 main()
