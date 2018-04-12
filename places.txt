@@ -1,0 +1,31 @@
+5
+Dr. Scott
+Childhood home
+41.156537
+-93.7107200
+darkblue
+Dr. Jan
+Southernmost city in the world
+-54.801912
+-68.302951
+green
+Dr. Jan
+Seattle, WA
+47.606209
+-122.332071
+red
+Ricardo
+Home
+36.588207
+-82.601550
+yellow
+John
+Childhood home
+34.852618
+-82.39401
+black
+
+# NOTES:
+# 1) The first number representshe number of entries in the file. Make sure you update that number if you add more.
+# 2) No spaces between entries! The code doesn't handle blank lines.
+# 3) Don't forget the type of data for each line as you create the code
