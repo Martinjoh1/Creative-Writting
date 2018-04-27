@@ -65,28 +65,21 @@ A08 (Helps wo make the letter dictionary, which helps to make the words)
   I encountered at least one challenge that was not specifically required. I had to find a way for the turtle screen to be printed as an image. In this process i dowonloaded ghostscript, and coded my program so that it turned the turtle screen into postcript, and exported it as eps., so that it could be read by ghostscript. This is something we had never done in class, and i was happey to have accomplished something new. 
 
 # Video
-You'll complete this part at the end of the project. In this section, add a publicly available link to a YouTube video which you will create, demonstrating how to use your program. The video is a short (less than 5 minutes) demonstration video. Your video should include:
-
-A title screen, including the class name, your name, and the project title
-You briefly discussing your project and it's motivation
-A demonstration on how to use the program, much like a marketing video.
-A short discussion about what you learned through the process of building the program.
-DO NOT include a section where you scroll through the code. Your video should include NO code.
-A credits roll
-Instructions
-Explain how to use your program and/or play your game.
+https://youtu.be/c_DeqWKiVxo
 
 # Errors
 - Does not print exact image of turtle screen when exported only prints letters, and colors.
 - Spacing between letters is not even.
-
+- If word is too large it will not fit the entire screen, but if multiple words each word can be ran seperately.
+- program automatically ends if there are spaces or the color and font is typed incorrectly.
 
 # Reflection
-You'll complete this part at the end of the project. Write a paragraph or two of your reactions to the final project.
+I really love my final project, because i know how much time and effort went into it. I am also happy with how much I learned. I now know about postscript, how to use classes more accurately. How to create objects, and attributes. I can get turtles to be used interactively with classes. I am also able to make cool and interesting art like objects on the computer. I beleve the program i made is something anyone would sit down, and play with just to see what they made. I am not happy because really large words might not fit the entire screen, because I could not let users choose a font size or eles the spacing would be really bad, and I was not able to make the image screen print automatically. I feel as if there was a lot I could have done, and that I also acomplished a lot as well.
+
+I came up with this idea, created a mediocore design, and was helped to make it more realistic and honestly better. I had not thought through every posibility, or really contemplated what was capable, but, I am glad that I did this. The class and this project has helped me to be more critical, and to really think about every option before taking action. I also have learned how to map things out more accurately in my mind. Starting off I had never done computer science before, but now I feel as if I am starting to understand. I am grasping the flow of the code more easily. This is one of the times when I have learned the most. 
 
 # References
-Throughout this project, you've likely used outside resources. Reference all ideas or code which are not your own, and describe and how you integrated the ideas or code into your program. This includes online sources, people who have helped you, and any other resources that are not solely your own contribution.
-
-A Note From Scott to You
-While there seems like a lot of work around this final project, one thing to keep in mind is HAVE FUN with it! You are creating code to express your interests. Make a fun video. Break up the writing so it’s not so burdensome. We will have a live demo session on our last day of class. It'll be the most fun final exam you've ever had!
+- https://stackoverflow.com/questions/4071633/python-turtle-module-saving-an-image (I used this to help me export the turtle image as enhanced post script)
+-T14, T13, T02, and T10 (helped me to use classes more effeicently, and to help with my understanding of how exactly to use turtles in the program itself.) 
+_ All CSC 226 TA's, Berucha, and Patrick (They all hleped me to better understand and impliment classes, and made the project more enjoyable :) )
 
